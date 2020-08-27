@@ -7,7 +7,7 @@ def profanityChecker(text):
     # Check profanity
     if any(a in text for a in profanities):
         # return if there is profanity
-        return "I found a bad word in profanities array."
+        return "I found bad word in text string."
     # return if there is not any profanity
     return "It's perfect. I can't found any bad word."
 
